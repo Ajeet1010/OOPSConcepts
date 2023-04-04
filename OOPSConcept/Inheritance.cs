@@ -41,10 +41,5 @@ namespace OOPSConcept
         {
             Console.WriteLine("Network management");
         }
-    }
-
-
-    // creating object for inheritance
-
-   
+    }   
 }
