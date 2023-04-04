@@ -5,11 +5,13 @@
         static void Main(string[] args)
         {
             Console.WriteLine("*****  OOPS CONCEPTS  *****");
-            // UC1- Creating an object for created class.
-            Student student = new Student();
-            student.Id = 1;
-            student.Name = "    Ajeet Pal";
-            Console.WriteLine(student.Id + student.Name);
+            
+
+            // creating object for inheritance
+
+            Computer stream = new Computer();
+            stream.Course();
+            Console.WriteLine(stream.Department + " " + stream.stream);
         }
     }
 }
