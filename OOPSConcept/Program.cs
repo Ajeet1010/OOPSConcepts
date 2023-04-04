@@ -9,11 +9,10 @@ namespace OOPSConcept
             Console.WriteLine("*****  OOPS CONCEPTS  *****");     
             
 
-            // method type object
-            MethodTypes.Get();
-
-            MethodTypes obj = new MethodTypes();
-            obj.GetValue();
+            
+            ValueType.TestValueType();
+            RefrenceType refrenceType = new RefrenceType();
+            RefrenceType.TestReferenceType();
         }
     }
 }
