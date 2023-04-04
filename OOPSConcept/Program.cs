@@ -5,13 +5,23 @@
         static void Main(string[] args)
         {
             Console.WriteLine("*****  OOPS CONCEPTS  *****");
-            
 
-            // creating object for inheritance
 
-            Computer stream = new Computer();
-            stream.Course();
-            Console.WriteLine(stream.Department + " " + stream.stream);
+            // dynamic polymorphism object
+            Console.WriteLine("\nDynamic Polymorphism");
+            Department dynamic = new Department();
+            dynamic.Stream();
+            dynamic = new Civil();
+            dynamic.Stream();
+            dynamic = new Mechanical();
+            dynamic.Stream();
+
+            // static dynamic polymorphism
+            Console.WriteLine("\n\nStatic Polymorphism");
+            StaticDepartment poly = new StaticDepartment();
+            poly.Student("Ajeet", "CSE");
+            poly.Student("Ajeet", "CSE", 19);
+
         }
     }
 }
