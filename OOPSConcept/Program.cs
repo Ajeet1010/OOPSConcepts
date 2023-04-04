@@ -6,13 +6,10 @@ namespace OOPSConcept
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("*****  OOPS CONCEPTS  *****");
-            
-
-            Type type = new Type(); // Create a type object
-            type.abstractmethod();  // Call the abstract method
-            type.abstractmethod();  // Call the regular method
-
+            Console.WriteLine("*****  OOPS CONCEPTS  *****");     
+            // types of variable object
+            VariableType variableType = new VariableType();
+            variableType.Type();
         }
     }
 }
