@@ -6,13 +6,16 @@ namespace OOPSConcept
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("*****  OOPS CONCEPTS  *****");     
-            
+            Console.WriteLine("*****  OOPS CONCEPTS  *****");
+            Computer1 stream = new Computer1();
+            stream.Branch();
+            Console.WriteLine(stream.Department);
+            stream.Branch1();
+            stream.Branch3();
+            Mechanical mechanical = new Mechanical();
+            mechanical.Branch2();
 
             
-            ValueType.TestValueType();
-            RefrenceType refrenceType = new RefrenceType();
-            RefrenceType.TestReferenceType();
         }
     }
 }
