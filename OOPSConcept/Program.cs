@@ -7,9 +7,13 @@ namespace OOPSConcept
         static void Main(string[] args)
         {
             Console.WriteLine("*****  OOPS CONCEPTS  *****");     
-            // types of variable object
-            VariableType variableType = new VariableType();
-            variableType.Type();
+            
+
+            // method type object
+            MethodTypes.Get();
+
+            MethodTypes obj = new MethodTypes();
+            obj.GetValue();
         }
     }
 }
